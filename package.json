@@ -1,0 +1,26 @@
+{
+  "name": "node-easy-notes-app",
+  "version": "1.0.0",
+  "description": "CRUD notes app using NodeJS, ExpressJS and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeon-nikolov/node-easy-notes-app.git"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "Simeon Nikolov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simeon-nikolov/node-easy-notes-app/issues"
+  },
+  "homepage": "https://github.com/simeon-nikolov/node-easy-notes-app#readme"
+}
