@@ -30,6 +30,9 @@ app.get('/', (req, res) => {
     res.json({message: 'Welcome! This is a simple notes CRUD app using Express, Node, MongoDB and Mongoose.'});
 });
 
+// Notes routes
+require('./app/routes/note.routes')(app);
+
 app.listen(3000, () => {
     console.log('Server is listening on port 3000.');
 });
